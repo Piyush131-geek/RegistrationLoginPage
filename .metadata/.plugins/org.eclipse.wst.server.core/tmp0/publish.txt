@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Fri Jan 20 16:15:59 IST 2023
+org.eclipse.jst.j2ee.server\:jstl-1.2=WEB-INF/lib/jstl-1.2.jar
+org.eclipse.jst.j2ee.server\:mysql-connector-j-8.0.31=WEB-INF/lib/mysql-connector-j-8.0.31.jar

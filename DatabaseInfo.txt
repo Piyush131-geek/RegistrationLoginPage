@@ -1,0 +1,21 @@
+Set Up the Database Using following queries -->
+
+Create database cohort5;
+use cohort5;
+CREATE TABLE employee (
+  empID int(10) NOT NULL AUTO_INCREMENT,
+  empName varchar(20) NOT NULL,
+  Salary varchar(8,2),
+  gender varchar(10),
+  emailID varchar(20),
+  password varchar(20)
+);
+-->put some dummy data for check
+INSERT INTO employee
+VALUES (104,Deepika,6565.65,Female,deepika@gmail.com,password);
+INSERT INTO employee
+VALUES (105,Piyush,6767.67,Male,piyush@gmail.com,password);
+INSERT INTO employee
+VALUES (106,Marut,6543.34,Male,marut@gmail.com,password);
+
+
